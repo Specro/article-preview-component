@@ -1,3 +1,8 @@
-export default {
-    base: '/article-preview-component/'
-}
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import svgr from 'vite-plugin-svgr';
+
+export default defineConfig({
+    base: '/article-preview-component/',
+    plugins: [svgr(), react()]
+});
