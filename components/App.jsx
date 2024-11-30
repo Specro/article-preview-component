@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import IconShare from '../images/icon-share.svg?react';
-import IconFacebook from '../images/icon-facebook.svg?react';
-import IconTwitter from '../images/icon-twitter.svg?react';
-import IconPinterest from '../images/icon-pinterest.svg?react';
+import IconShare from '../public/images/icon-share.svg?react';
+import IconFacebook from '../public/images/icon-facebook.svg?react';
+import IconTwitter from '../public/images/icon-twitter.svg?react';
+import IconPinterest from '../public/images/icon-pinterest.svg?react';
 
 export default function App({}) {
     const [active, isActive] = useState(false);
