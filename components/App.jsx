@@ -29,7 +29,7 @@ export default function App({}) {
                                 <a href="#"><IconPinterest /></a>
                             </div>
                         </div>
-                        <button onClick={() => isActive(!active)} className={`rounded-full h-8 w-8 bg-light-grayish-blue relative z-10 group-is-active:bg-grayish-blue group-is-active:-bottom-2 lg:group-is-active:bottom-auto lg:group-is-active:bg-desaturated-dark-blue`}>
+                        <button onClick={() => isActive(!active)} aria-label="Share" className={`rounded-full h-8 w-8 bg-light-grayish-blue relative z-10 group-is-active:bg-grayish-blue group-is-active:-bottom-2 lg:group-is-active:bottom-auto lg:group-is-active:bg-desaturated-dark-blue`}>
                             <IconShare className="text-very-dark-grayish-blue mx-auto group-is-active:text-white" />
                         </button>
                     </div>
